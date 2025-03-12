@@ -1,5 +1,8 @@
 import json
-
+#comentado
+#git de rama secundaria
+#123213
+#12312321
 def cargar_alumnos(ruta_archivo):
     with open(ruta_archivo, 'r') as archivo:
         return json.load(archivo)
